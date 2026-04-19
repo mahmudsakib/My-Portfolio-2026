@@ -1,0 +1,16 @@
+{
+  "name": "glint-portfolio",
+  "version": "1.0.0",
+  "description": "Glint Portfolio Template",
+  "scripts": {
+    "dev": "node start.js",
+    "start": "node start.js",
+    "server": "cd glint/glint/glint && npx http-server -c-1 -p 8000 --gzip --cors"
+  },
+  "keywords": [
+    "portfolio",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC"
+}

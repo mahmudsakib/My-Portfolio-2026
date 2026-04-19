@@ -1,0 +1,120 @@
+/* Background Image Styles */
+
+/* Welcome Area Background */
+.welcome-area-wrap {
+    background: url(../img/bg/inner-header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-area-wrap.home-one {
+    background: none;
+}
+
+/* About Image Section */
+.about-img-section {
+    background-image: url(../img/about/about1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Blog Section Images */
+.single-blog-section-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.single-blog-section-img.blog1 {
+    background-image: url(../img/blog/blog1.jpg);
+    height: 400px;
+}
+
+.single-blog-section-img.blog2 {
+    background-image: url(../img/blog/blog2.jpg);
+    height: 400px;
+}
+
+/* CTA Area Background */
+.cta-area {
+    background-image: url(../img/bg/world-map.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta-area.cta-are2 {
+    background-image: url(../img/bg/world-map.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Social Hover Backgrounds */
+.sinlge-social-hover {
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.sinlge-social-hover.social1 {
+    background: url(../img/social/social1.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.sinlge-social-hover.social2 {
+    background: url(../img/social/social2.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.sinlge-social-hover.social3 {
+    background: url(../img/social/social3.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.sinlge-social-hover.social4 {
+    background: url(../img/social/social4.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* Footer Area Background */
+.footer-area {
+    background-image: url(../img/bg/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-grid li {
+    flex: 0 0 calc(33.333% - 1rem);
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.blogs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
