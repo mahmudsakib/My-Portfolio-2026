@@ -1,7 +1,7 @@
 {
-  "name": "glint-portfolio",
+  "name": "sakib-mahmud-portfolio",
   "version": "1.0.0",
-  "description": "Glint Portfolio Template",
+  "description": "Sakib Mahmud Portfolio - Software Developer",
   "scripts": {
     "dev": "node start.js",
     "start": "node start.js",

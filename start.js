@@ -10,7 +10,7 @@ const URL = `http://localhost:${PORT}`;
 // Change to portfolio directory
 process.chdir(path.join(__dirname, 'glint', 'glint', 'glint'));
 
-console.log('\n🚀 Starting Glint Portfolio...\n');
+console.log('\n🚀 Starting Sakib Mahmud Portfolio...\n');
 console.log(`📍 Portfolio will be available at: ${URL}\n`);
 
 // Determine open command based on platform

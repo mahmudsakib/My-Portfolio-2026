@@ -49,7 +49,7 @@ INNER PAGES CSS----->
 .single-blog-section-description h2:hover, 
 .single-blog-section-description h2 a:hover{
 
-    color: #08d665;
+    color: #22cd6f;
 }
 
 .single-blog-section-description {
@@ -88,11 +88,11 @@ a.blog-author img {
     top: 50%;
     margin-top: -20px;
     border-radius: 50%;
-    border: 1px solid #08d665;
+    border: 1px solid #22cd6f;
 }
 
 .single-blog-section-author li a i {
-    color: #08d665;
+    color: #22cd6f;
     padding-right: 5px;
 }
 

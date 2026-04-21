@@ -72,7 +72,7 @@ FOOTER AREA CSS
     margin     : 0 2px;
 }
 .header-banner-area .owl-nav > div:hover{
-	color: #08D665;
+	color: #22cd6f;
 }
 .header-banner-area .owl-nav > div i{
 	font-size: 12px;
@@ -118,7 +118,7 @@ FOOTER AREA CSS
 .banner-icon {
     position  : absolute;
     left      : 0;
-    background: #08D665;
+    background: #22cd6f;
     padding   : 10px 12px;
     top       : 0;
     color     : #fff;
@@ -139,7 +139,7 @@ FOOTER AREA CSS
     padding  : 10px;
 }
 .banner-social li a:hover{
-	color: #08D665;
+	color: #22cd6f;
 }
 
 
@@ -152,7 +152,7 @@ a.contact-btn {
     color      : #fff;
     font-size  : 13px;
     font-weight: 400;
-    background : #08D665;
+    background : #22cd6f;
     padding    : 10px 25px 10px 40px;
     transition : all .3s;
     position   : relative;
@@ -219,7 +219,7 @@ a.contact-btn:hover{
 }
 
 .search-btn i {
-    color: #08D665;
+    color: #22cd6f;
 }
 
 .search-box input {
@@ -332,8 +332,8 @@ a.contact-btn:hover{
 
 .side-social li a:hover, 
 .side-close:hover{
-    background  :#08D665;
-    border-color: #08D665;
+    background  :#22cd6f;
+    border-color: #22cd6f;
     transition  : all .3s;
 }
 
@@ -377,13 +377,13 @@ a.contact-btn:hover{
 }
 
 .wlc-title h1 span {
-    color: #08d665;
+    color: #22cd6f;
 }
 .wlc-title p {
     font-weight : 400;
     font-size   : 18px;
     padding-left: 20px;
-    border-left : 3px solid #08d665;
+    border-left : 3px solid #22cd6f;
     line-height : 28px;
     margin:40px 0;
 }
@@ -418,7 +418,7 @@ a.contact-btn:hover{
     position     : relative;
     z-index      : 2;
     margin       : 7px 0;
-    border       : 1px solid #08d665;
+    border       : 1px solid #22cd6f;
     transition   : all .3s;
     overflow     : hidden;
 }
@@ -432,15 +432,15 @@ a.contact-btn:hover{
     text-align       : center;
     top              : 50%;
     margin-top       : -13px;
-    color            : #08d665;
+    color            : #22cd6f;
     font-size        : 12px;
     transition       : all .3s;
 
 }
 .welcome-carousel .owl-dots > div:hover, 
 .welcome-carousel .owl-dots > div.active{
-    background  : #08d665;
-    border-color: #08d665;
+    background  : #22cd6f;
+    border-color: #22cd6f;
    
 }
 .welcome-carousel .owl-dots > div:hover:after, 
@@ -496,9 +496,9 @@ a.about-video {
     width        : 80px;
     text-align   : center;
     line-height  : 80px;
-    background   : #fff;
+    background   : #22cd6f;
     border-radius: 50%;
-    color        : #08d665;
+    color        : #fff;
     font-size    : 40px;
 }
 .about-shape {
@@ -587,7 +587,7 @@ a.about-video {
 }
 
 .video-play-button:hover:after {
-  background-color: darken(#22cd6f, 10%);
+  background-color: #1ab757;
 }
 
 .video-play-button img {
@@ -658,7 +658,7 @@ a.about-video {
     font-size     : 20px;
     text-transform: uppercase;
     font-weight   : 600;
-    color         : #08d665;
+    color         : #22cd6f;
     margin        : 12px 0;
 }
 
@@ -710,7 +710,7 @@ a.about-video {
 .primery-skill .skill-box small {
     font-size     : 14px;
     text-transform: uppercase;
-    color         : #2d2e2f;
+    color         : #ffffff !important;
     font-weight   : 500;
     z-index:2;
 }
@@ -719,7 +719,7 @@ a.about-video {
     font-size     : 20px;
     text-transform: uppercase;
     font-weight   : 600;
-    color         : #0b0d0e;
+    color         : #ffffff !important;
     margin        : 12px 0;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -759,7 +759,7 @@ a.about-video {
     border-radius: 0;
 }
 .primery-skill .skill-box:hover h5{
-    color: #08d665;
+    color: #22cd6f;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -767,7 +767,7 @@ a.about-video {
 .primery-skill .skill-box p {
     font-size     : 15px;
     text-transform: capitalize;
-    color         : #0b0d0e;
+    color         : #ffffff !important;
     font-weight   : 400;
     line-height   : 1.6;
     margin-bottom: 0;
@@ -822,7 +822,7 @@ a.about-video {
     position      : relative;
     display       : inline-block;
     min-height    : 155px;
-    color         : #fff;
+    color         : #ffffff !important;
     font-size     : 16px;
     font-weight   : 400;
     text-transform: uppercase;
@@ -941,7 +941,7 @@ span.circle {
 span.circle.circle-1 {
     height    : 100px;
     width     : 100px;
-    background: #5fdb97;
+    background: #22cd6f;
     z-index   : 5;
     display   : inline-block;
     z-index   : 5;
@@ -951,21 +951,21 @@ span.circle.circle-1 {
 span.circle.circle-2 {
     height    : 200px;
     width     : 200px;
-    background: #4dd78b;
+    background: #1ab757;
     z-index   : 4;
 }
 
 span.circle.circle-3 {
     height    : 300px;
     width     : 300px;
-    background: #39d27e;
+    background: #0fa048;
     z-index   : 3;
 }
 
 span.circle.circle-4 {
     height    : 400px;
     width     : 400px;
-    background: #22cd6f;
+    background: #08a940;
     z-index   : 2;
 }
 
@@ -1006,7 +1006,7 @@ span.circle.circle-4 {
 
 
 .service-text p {
-    color         : #999999;
+    color         : #ffffff !important;
     text-transform: capitalize;
     font-size     : 18px;
     font-weight   : 400;
@@ -1021,7 +1021,7 @@ span.circle.circle-4 {
 
 .single-service.active, 
 .single-service:hover {
-    background: #09c75f;
+    background: #f0f0f0;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
     transition:all .3s;
@@ -1043,14 +1043,14 @@ span.circle.circle-4 {
 
 .single-service.active .cbtn.pricing-btn, 
 .single-service:hover .cbtn.pricing-btn{
-    background: #06a950;
+    background: #22cd6f;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
     transition:all .3s;
 }
 .single-service.active .cbtn.pricing-btn i, 
 .single-service:hover .cbtn.pricing-btn i{
-    color     : #06a950;
+    color     : #22cd6f;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
     transition:all .3s;
@@ -1074,7 +1074,7 @@ span.circle.circle-4 {
 
 .service-primery .single-service.active, 
 .service-primery .single-service:hover {
-    background: #09c75f;
+    background: #f0f0f0;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
     transition:all .3s;
@@ -1150,13 +1150,13 @@ span.circle.circle-4 {
 }
 .da-thumbs li a div {
     position  : absolute;
-    background: #06a950;
+    background: #22cd6f;
     width     : 100%;
     height    : 100%;
 }
 .da-thumbs li a div.custom-hover-object {
     position  : absolute;
-    background: #06a950;
+    background: #22cd6f;
     width     : 100%;
     height    : 100%;
 }
@@ -1186,11 +1186,11 @@ span.circle.circle-4 {
     height       : 45px;
     width        : 45px;
     background   : transparent;
-    border       : 1px solid #06a950;
+    border       : 1px solid #22cd6f;
     text-align   : center;
     line-height  : 45px;
     border-radius: 4px;
-    color        : #06a950;
+    color        : #22cd6f;
     font-size    : 16px;
     display      : inline-block;
     margin       : 0 5px;
@@ -1199,8 +1199,8 @@ span.circle.circle-4 {
 
 .da-thumbs .owl-nav > div:hover, 
 .da-thumbs .owl-nav > div:focus{
-    background  : #06a950;
-    border-color: #06a950;
+    background  : #22cd6f;
+    border-color: #22cd6f;
     color       : #fff;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
@@ -1253,7 +1253,7 @@ span.circle.circle-4 {
 }
 
 .service-text h5 {
-    color         : #999999;
+    color         : #ffffff !important;
     text-transform: capitalize;
     font-size     : 18px;
 }
@@ -1273,17 +1273,17 @@ span.circle.circle-4 {
 .fact i {
     font-size: 48px;
     margin-bottom: 10px;
-    color: #08d665;
+    color: #22cd6f;
 }
 
 
 .fact h2 {
-    color: #08d665;
+    color: #22cd6f;
 }
 
 
 .fact span {
-    color: #32383A;
+    color: #ffffff !important;
     font-size: 18px;
 }
 
@@ -1307,11 +1307,11 @@ span.circle.circle-4 {
     height       : 45px;
     width        : 45px;
     background   : transparent;
-    border       : 1px solid #06a950;
+    border       : 1px solid #22cd6f;
     text-align   : center;
     line-height  : 45px;
     border-radius: 4px;
-    color        : #06a950;
+    color        : #22cd6f;
     font-size    : 16px;
     display      : inline-block;
     margin       : 0 5px;
@@ -1322,8 +1322,8 @@ span.circle.circle-4 {
 
 .testimonials .owl-nav > div:hover, 
 .testimonials .owl-nav > div:focus{
-    background  : #06a950;
-    border-color: #06a950;
+    background  : #22cd6f;
+    border-color: #22cd6f;
     color       : #fff;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
@@ -1394,11 +1394,11 @@ span.circle.circle-4 {
     height            : 45px;
     width             : 45px;
     background        : transparent;
-    border            : 1px solid #06a950;
+    border            : 1px solid #22cd6f;
     text-align        : center;
     line-height       : 45px;
     border-radius     : 4px;
-    color             : #06a950;
+    color             : #22cd6f;
     font-size         : 16px;
     display           : inline-block;
     margin            : 0 5px;
@@ -1409,8 +1409,8 @@ span.circle.circle-4 {
 
 .blog-area .owl-nav > div:hover, 
 .blog-area .owl-nav > div:focus{
-    background  : #06a950;
-    border-color: #06a950;
+    background  : #22cd6f;
+    border-color: #22cd6f;
     color       : #fff;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
@@ -1491,14 +1491,14 @@ a.readmore-btn i {
 }
 
 .single-blog:hover span.blog-banner {
-    background: #06a950;
+    background: #22cd6f;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
 }
 
 a.readmore-btn {
-    color: #08d665;
+    color: #22cd6f;
     text-transform: uppercase;
     font-size: 12px;
     margin:0;
@@ -1737,7 +1737,7 @@ span.single-social-icon i {
 }
 
 .footer-menu li a:hover {
-    color: #08d665;
+    color: #22cd6f;
 }
 
 .footer-menu li {
@@ -1745,7 +1745,7 @@ span.single-social-icon i {
 }
 
 .copyright span {
-    color: #08d665;
+    color: #22cd6f;
 }
 
 .copyright {
@@ -1806,7 +1806,7 @@ span.single-social-icon i {
 
 .primery-heading small {
     font-weight: 500;
-    color      : #08d665 !important;
+    color      : #22cd6f !important;
     font-size  : 16px;
     text-transform: uppercase;
 }
@@ -1823,7 +1823,7 @@ span.single-social-icon i {
 }
 
 .primery-heading h2 span {
-    color: #08d665;
+    color: #22cd6f;
 }
 
 .primery-heading {
@@ -1851,7 +1851,7 @@ span.single-social-icon i {
 
 .heading small {
     font-weight: 500;
-    color      : #08d665 !important;
+    color      : #22cd6f !important;
     font-size  : 16px;
     text-transform: uppercase;
 }
@@ -1859,7 +1859,7 @@ span.single-social-icon i {
 
 .primery-info-content{
     padding-left: 30px;
-    border-left : 3px solid #08d665;
+    border-left : 3px solid #22cd6f;
     color       : #fff;
 }
 
@@ -1867,7 +1867,7 @@ span.single-social-icon i {
     font-size     : 18px;
     text-transform: capitalize;
     font-weight   : 400;
-    color: #08d665;
+    color: #22cd6f;
     margin-bottom: 0;
 }
 
@@ -1877,7 +1877,7 @@ span.single-social-icon i {
 
 .info-content{
     padding-left: 30px;
-    border-left : 3px solid #08d665;
+    border-left : 3px solid #22cd6f;
     color       : #fff;
 }
 
@@ -1894,7 +1894,7 @@ a.up-btn {
     position: fixed;
     bottom: 0;
     right: 10%;
-    background: #08d665;
+    background: #22cd6f;
     color: #fff;
     height: 60px;
     width: 60px;
@@ -1909,9 +1909,9 @@ a.up-btn {
 }
 
 a.up-btn:hover {
-    color: #08d665;
+    color: #22cd6f;
     background: #fff;
-    border-color: #08d665;
+    border-color: #22cd6f;
     z-index: 999999999;
 }
 
@@ -1922,6 +1922,214 @@ a.up-btn:hover {
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+/* ===================================
+   ALTERNATING SECTION BACKGROUNDS
+   =================================== */
+
+/* About Section - GREEN BACKGROUND */
+.about-area.about-area1 {
+    background: linear-gradient(135deg, #1f5d3d 0%, #2d7a52 100%) !important;
+    background-attachment: fixed;
+}
+
+.about-area.about-area1 .primery-heading h2 {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 .primery-heading h2 span {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 .heading h2 {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 .heading h2 span {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 h2, 
+.about-area.about-area1 h3, 
+.about-area.about-area1 h4,
+.about-area.about-area1 h5,
+.about-area.about-area1 p,
+.about-area.about-area1 .heading small {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 a {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 a:hover {
+    color: #e6e6e6 !important;
+}
+
+/* Skill Section - BLACK (default, no change needed) */
+.skill-area.section-padding {
+    background: #0B0D0E !important;
+}
+
+.skill-area.section-padding .heading h2,
+.skill-area.section-padding .heading small,
+.skill-area.section-padding .heading p {
+    color: #ffffff !important;
+}
+
+/* Service Section - GREEN BACKGROUND */
+.service-area.padding-bottom {
+    background: linear-gradient(135deg, #1f5d3d 0%, #2d7a52 100%) !important;
+    background-attachment: fixed;
+}
+
+.service-area.padding-bottom .heading h2 {
+    color: #ffffff !important;
+}
+
+.service-area.padding-bottom .heading h2 span {
+    color: #ffffff !important;
+}
+
+.service-area.padding-bottom .heading small {
+    color: #ffffff !important;
+}
+
+.service-area.padding-bottom h3,
+.service-area.padding-bottom h4,
+.service-area.padding-bottom p {
+    color: #ffffff !important;
+}
+
+.service-area.padding-bottom a {
+    color: #ffffff !important;
+}
+
+/* Project Section - BLACK (default, no change needed) */
+.project-area.section-padding {
+    background: #0B0D0E !important;
+}
+
+.project-area.section-padding .heading h2 {
+    color: #ffffff !important;
+}
+
+.project-area.section-padding .heading h2 span {
+    color: #22cd6f !important;
+}
+
+/* Testimonials Section - GREEN BACKGROUND */
+.testimonials-area.testimonials-area1.section-padding {
+    background: linear-gradient(135deg, #1f5d3d 0%, #2d7a52 100%) !important;
+    background-attachment: fixed;
+}
+
+.testimonials-area.testimonials-area1 .heading h2 {
+    color: #ffffff !important;
+}
+
+.testimonials-area.testimonials-area1 .heading h2 span {
+    color: #ffffff !important;
+}
+
+.testimonials-area.testimonials-area1 .heading small {
+    color: #ffffff !important;
+}
+
+.testimonials-area.testimonials-area1 .heading p {
+    color: #ffffff !important;
+}
+
+.testimonials-area.testimonials-area1 h4,
+.testimonials-area.testimonials-area1 p {
+    color: #ffffff !important;
+}
+
+.testimonials-area.testimonials-area1 a {
+    color: #ffffff !important;
+}
+
+/* Pricing Section - BLACK */
+.pricing-area.pricing-area1.section-padding {
+    background: #0B0D0E !important;
+}
+
+.pricing-area.pricing-area1 .heading h2 {
+    color: #ffffff !important;
+}
+
+.pricing-area.pricing-area1 .heading h2 span {
+    color: #22cd6f !important;
+}
+
+.pricing-area.pricing-area1 .heading small,
+.pricing-area.pricing-area1 .heading p {
+    color: #ffffff !important;
+}
+
+/* Blog Section - GREEN BACKGROUND */
+.blog-area.padding-top {
+    background: linear-gradient(135deg, #1f5d3d 0%, #2d7a52 100%) !important;
+    background-attachment: fixed;
+}
+
+.blog-area.padding-top .heading h2 {
+    color: #ffffff !important;
+}
+
+.blog-area.padding-top .heading h2 span {
+    color: #ffffff !important;
+}
+
+.blog-area.padding-top .heading small {
+    color: #ffffff !important;
+}
+
+.blog-area.padding-top .heading p {
+    color: #ffffff !important;
+}
+
+.blog-area.padding-top h4,
+.blog-area.padding-top p {
+    color: #ffffff !important;
+}
+
+.blog-area.padding-top a {
+    color: #ffffff !important;
+}
+
+.blog-area.padding-top a:hover {
+    color: #e6e6e6 !important;
+}
+
+/* CTA Section - BLACK */
+.cta-area.cta-area1.padding-top {
+    background: #0B0D0E !important;
+}
+
+.cta-area.cta-area1 .heading h2 {
+    color: #ffffff !important;
+}
+
+.cta-area.cta-area1 .heading h2 span {
+    color: #22cd6f !important;
+}
+
+.cta-area.cta-area1 .heading small,
+.cta-area.cta-area1 .heading p {
+    color: #ffffff !important;
+}
+
+/* Footer Section - BLACK */
+.footer-area.footer-area1 {
+    background: #0B0D0E !important;
+}
+
+.footer-area.footer-area1 h2,
+.footer-area.footer-area1 h3,
+.footer-area.footer-area1 p {
+    color: #ffffff !important;
 }
 
 
