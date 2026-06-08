@@ -81,11 +81,21 @@ jQuery(document).ready(function($) {
       banner_slide.owlCarousel({
         loop:true,
         nav:true,
-        dots:false,
+        dots:true,
         animateIn:'fadeInUp',
         autoplay:true,
         items:1,
         navText:["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
+        responsive:{
+          0:{
+            nav:false,
+            dots:true
+          },
+          992:{
+            nav:true,
+            dots:false
+          }
+        }
 
       });
 

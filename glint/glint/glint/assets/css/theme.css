@@ -62,6 +62,10 @@ FOOTER AREA CSS
     background: #2E3D44;
 }
 
+.header-banner-area .banner-carousel {
+    padding-right: 72px;
+}
+
 .header-banner-area .owl-nav > div {
     height     : 20px;
     width      : 30px;
@@ -115,6 +119,79 @@ FOOTER AREA CSS
     padding     : 10px;
     padding-left: 50px;
 }
+
+/* Certificates cards */
+.single-cert {
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+.single-cert:hover {
+    transform: translateY(-6px);
+    border-color: #e85d24;
+}
+
+.single-cert img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.single-cert h5 {
+    padding: 14px 16px;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0;
+    background: transparent;
+}
+
+/* CTA area (contact) - green background and readable controls */
+.cta-area.cta-area1 {
+    background: linear-gradient(180deg, #20a86b 0%, #118048 100%);
+    color: #ffffff;
+}
+
+/* Higher-specificity override for the contact section to ensure green background */
+#contact.cta-area.cta-area1 {
+    background: linear-gradient(180deg, #20a86b 0%, #118048 100%) !important;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.cta-area.cta-area1 .heading.white,
+.cta-area.cta-area1 .contact-cta-copy,
+.cta-area.cta-area1 .info-content,
+.cta-area.cta-area1 p,
+.cta-area.cta-area1 .contact-highlights li {
+    color: #ffffff;
+}
+.cta-area.cta-area1 .contact-card {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
+}
+.cta-area.cta-area1 .form-control {
+    background: rgba(255,255,255,0.92);
+    color: #123126;
+    border: 1px solid rgba(255,255,255,0.35);
+}
+.cta-area.cta-area1 .form-control::placeholder {
+    color: #597164;
+}
+.cta-area.cta-area1 .form-control:focus {
+    background: #ffffff;
+    color: #123126;
+    border-color: #e8fff0;
+}
+.cta-area.cta-area1 .subscribe-btn {
+    background: #0b5f39;
+    border: none;
+    color: #fff;
+}
+.cta-area.cta-area1 .contact-alt-link { color: #f0fff6; }
 .banner-icon {
     position  : absolute;
     left      : 0;
@@ -364,7 +441,9 @@ a.contact-btn:hover{
 .single-welcome-area {
     position   : relative;
     z-index    : 2;
-    height     : 800px;
+    height     : calc(100vh - 112px);
+    min-height : 620px;
+    max-height : 820px;
     display    : flex;
     align-items: center;
 }
@@ -389,11 +468,16 @@ a.contact-btn:hover{
 }
 .wlc-author-1 {
     position: absolute;
-    right   : 5%;
-    width   : 40%;
+    right   : 4%;
+    width   : 30%;
     bottom  : 0;
-    height  : 90%;
+    height  : 78%;
     z-index : -1;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(17, 22, 24, 0.95));
+    border-radius: 28px 28px 0 0;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06), 0 24px 60px rgba(0, 0, 0, 0.22);
+    padding: 12px 12px 0;
 }
 
 .author-1 img {
@@ -467,7 +551,15 @@ h1.wlc-filltext {
 
 .wlc-author-1 img {
     position: absolute;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: calc(100% - 24px);
+    object-fit: contain;
+    object-position: center center;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.22));
 }
 
 
@@ -907,6 +999,18 @@ a.about-video {
     z-index   : 2;
     overflow: hidden;
     background: #131617;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-cards-row > [class*="col-"] {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.service-cards-row .single-service {
+    width: 100%;
 }
 
 
@@ -1019,6 +1123,10 @@ span.circle.circle-4 {
     margin: 0 auto;
 }
 
+.service-text {
+    flex: 1;
+}
+
 .single-service.active, 
 .single-service:hover {
     background: #f0f0f0;
@@ -1084,6 +1192,35 @@ span.circle.circle-4 {
 
 .service-primery .service-text {
     margin: 40px 0 0 0px;
+}
+
+@media (max-width: 991px) {
+    .service-cards-row > [class*="col-"] {
+        margin-bottom: 24px;
+    }
+
+    .single-service {
+        padding: 40px 28px;
+    }
+
+    .service-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .single-service {
+        padding: 34px 22px;
+    }
+
+    .service-text h4 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .service-text p {
+        font-size: 15px;
+    }
 }
 
 .service-primery {
@@ -1587,6 +1724,98 @@ a.subscribe-btn i {
     margin: 0 auto;
 }
 
+.contact-cta-copy p {
+    color: #cdd6d8;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+.contact-highlights {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-highlights li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.contact-highlights li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #22cd6f;
+}
+
+.contact-card {
+    background: rgba(17, 22, 24, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+}
+
+.contact-quick-form .form-control {
+    height: auto;
+    background: #32383a;
+    color: #fff;
+    border: 1px solid #435157;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    box-shadow: none;
+}
+
+.contact-quick-form .form-control::placeholder {
+    color: #b8c2c4;
+}
+
+.contact-quick-form .form-control:focus {
+    border-color: #22cd6f;
+    background: #2c3133;
+    color: #fff;
+}
+
+.contact-quick-form textarea.form-control {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.contact-form-actions .subscribe-btn {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    min-width: 220px;
+}
+
+.contact-alt-link {
+    color: #cdd6d8;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contact-alt-link:hover {
+    color: #22cd6f;
+}
+
 .cta-primery {
     position: relative;
     z-index: 2;
@@ -1742,6 +1971,30 @@ span.single-social-icon i {
 
 .footer-menu li {
     display: inline-block;
+}
+
+.footer-social {
+    margin-top: 22px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin: 0 6px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.02);
+    transition: all 0.25s ease;
+}
+
+.footer-social a:hover {
+    color: #22cd6f;
+    border-color: #22cd6f;
+    transform: translateY(-2px);
 }
 
 .copyright span {

@@ -14,11 +14,13 @@ Description:
 */
 @media only screen and (min-width: 1400px) {
     .single-welcome-area{
-        height: 1000px;
+        height: calc(100vh - 112px);
+        min-height: 620px;
+        max-height: 820px;
     }
     .wlc-title h1{
-        font-size: 80px;
-        line-height: 90px
+        font-size: 74px;
+        line-height: 84px
 
     }
     
@@ -58,6 +60,11 @@ Description:
     .pricing-area .row > div{
         margin-bottom: 40px;
     }
+    .header-banner-area{
+        display: block;
+        height: auto;
+        padding: 12px 0 8px;
+    }
     .about-area .heading{
         margin-top: 40px
      }
@@ -66,10 +73,11 @@ Description:
         margin-bottom: 0;
     }
     .header-banner-area{
-        display: none;
-        height: 0
+        display: block;
+        height: auto;
     }
     .header-area.header-main{
+        position: relative;
         top: 0
     }
     .welcome-area.inner {
@@ -141,6 +149,34 @@ Description:
     .skill-box{
         margin-bottom: 30px;
      }
+    .banner-comments{
+        padding-left: 42px;
+    }
+    .banner-icon{
+        padding: 8px 10px;
+    }
+    .banner-social-wrap{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner-social-wrap div{
+        display: block;
+    }
+    .banner-social li a{
+        padding: 8px 10px;
+    }
+    .banner-single-carousel p{
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: none;
+    }
+    .header-banner-area .owl-nav{
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+        background: transparent;
+    }
 
 }
 
@@ -158,10 +194,17 @@ Description:
 ================+/+/+/+/+/+/+/+/+/=================
 */
 @media only screen and (max-width: 767px) {
+    .header-area.header-main{
+        position: relative;
+        top: 0;
+    }
     .wlc-title h1{
         font-size     : 32px;
         line-height   : 36px;
         letter-spacing: 1px;
+    }
+    .header-banner-area{
+        padding: 10px 0 12px;
     }
    .banner-social-wrap {
         text-align : center;
@@ -187,6 +230,21 @@ Description:
     .single-welcome-area.home_1 {
         
         margin-top: 120px;
+    }
+    .banner-comments{
+        padding: 42px 10px 10px;
+    }
+    .banner-icon{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header-banner-area .owl-nav{
+        margin-top: 8px;
+    }
+    .banner-single-carousel p{
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: .4px;
     }
     .header-area{
         padding: 10px 0;
@@ -246,6 +304,19 @@ Description:
         width: 100% !important;
         margin-bottom: 30px;
     }
+    .contact-card {
+        padding: 18px;
+        margin-top: 20px;
+    }
+    .contact-form-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .contact-form-actions .subscribe-btn {
+        width: 100%;
+        min-width: 0;
+        text-align: center;
+    }
     a.subscribe-btn {
         width: 78%;
         float: none;
@@ -253,6 +324,11 @@ Description:
     .heading.cta-heading h2 {
         font-size: 34px;
         line-height: 45px;
+    }
+
+    #contact.cta-area.cta-area1 {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     
 
