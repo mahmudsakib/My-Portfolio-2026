@@ -360,4 +360,11 @@ jQuery(document).ready(function($) {
 
 }(jQuery));
 
+function toggleDetails(btn) {
+    const details = btn.previousElementSibling;
+    const isOpen = details.style.display === 'block';
+    details.style.display = isOpen ? 'none' : 'block';
+    btn.classList.toggle('open', !isOpen);
+}
+
 
