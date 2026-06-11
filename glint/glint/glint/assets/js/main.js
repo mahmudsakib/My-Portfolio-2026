@@ -6,13 +6,14 @@ jQuery(document).ready(function($) {
 
 	 //menu active
     var stellarnav =  $('.stellarnav');
-      stellarnav.stellarNav({
-        theme: 'light',
-        breakpoint: 960,
-        position: 'right',
-        phoneBtn: '18009997788',
-        locationBtn: 'https://www.google.com/maps'
-      });
+stellarnav.stellarNav({
+    theme: 'light',
+    breakpoint: 960,
+    position: 'right',
+    phoneBtn: '',
+    locationBtn: '',
+    closeBtn: true
+});
 
       //All Carousel active
       var hover_project_item = $(' #da-thumbs > li ');
