@@ -617,3 +617,213 @@
         padding: 12px 14px !important;
     }
 }
+.banner-single-carousel p {
+    text-align: justify !important;
+}
+.side-content p {
+    text-align: justify !important;
+}
+.wlc-title p {
+    text-align: justify !important;
+}
+.about-area .heading p {
+    text-align: justify !important;
+}
+.skill-box p,
+.info-content p {
+    text-align: justify !important;
+}
+.service-text p,
+.project-details p,
+.testimonial-text h4,
+.info-content p {
+    text-align: justify !important;
+}
+.single-cert h5 {
+    text-align: center !important;
+}
+.contact-cta-copy h2,
+.contact-cta-copy p,
+.contact-highlights li {
+    text-align: justify !important;
+}
+.about-area .filltext {
+    position: relative !important;
+    z-index: 5 !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
+.about-area .heading h2,
+.about-area .heading p {
+    position: relative !important;
+    z-index: 5 !important;
+}
+.about-area .filltext {
+    display: block !important;
+    margin-bottom: 25px !important;
+}
+.skill-area .filltext {
+    position: relative !important;
+    z-index: 5 !important;
+    opacity: 1 !important;
+    display: block !important;
+    margin-bottom: 25px !important;
+    color: #ffffff !important;
+}
+
+.skill-area .heading h2,
+.skill-area .heading p {
+    position: relative !important;
+    z-index: 5 !important;
+}
+
+@media (max-width: 768px) {
+    .skill-area .filltext {
+        font-size: 28px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+.filltext {
+    font-size: 80px !important;
+    line-height: 1 !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+    display: block !important;
+    margin-bottom: 25px !important;
+    position: relative !important;
+    z-index: 5 !important;
+}
+
+@media (max-width: 768px) {
+    .filltext {
+        font-size: 40px !important;
+    }
+}
+
+.section-padding {
+    padding-bottom: 0 !important;
+}
+
+.padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+.space-100,
+.space-60,
+.space-40,
+.space-20 {
+    display: none !important;
+}
+
+.service-area {
+    padding-top: 80px !important;
+}
+
+@media (max-width: 768px) {
+    .service-area {
+        padding-top: 50px !important;
+    }
+}
+
+
+.project-area .filltext,
+.project-area strong.filltext {
+    color: #028648 !important;
+    -webkit-text-fill-color: #028648 !important;
+}
+
+.about-area .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+.skill-area .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+.service-area .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+.about-area.about-area1 .heading small {
+    color: #22cd6f !important;
+}
+
+.about-area.about-area1 .heading h2 {
+    color: #ffffff !important;
+}
+
+.about-area.about-area1 .heading h2 span {
+    color: #22cd6f !important;
+}
+
+.about-area.about-area1 strong.filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+.skill-area .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.skill-area .heading small {
+    color: #22cd6f !important;
+}
+
+.skill-area .heading h2 {
+    color: #ffffff !important;
+}
+
+.skill-area .heading h2 span {
+    color: #22cd6f !important;
+}
+
+.service-area.padding-bottom .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.service-area.padding-bottom .heading small {
+    color: #22cd6f !important;
+}
+
+.service-area.padding-bottom .heading h2 {
+    color: #ffffff !important;
+}
+
+.service-area.padding-bottom .heading h2 span {
+    color: #22cd6f !important;
+}
+.project-area.section-padding .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.project-area.section-padding .heading small {
+    color: #22cd6f !important;
+}
+
+.project-area.section-padding .heading h2 {
+    color: #ffffff !important;
+}
+
+.project-area.section-padding .heading h2 span {
+    color: #22cd6f !important;
+}
+.testimonial-area.section-padding .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.testimonial-area.section-padding .heading small {
+    color: #22cd6f !important;
+}
+
+.testimonial-area.section-padding .heading h2 {
+    color: #ffffff !important;
+}
+
+.testimonial-area.section-padding .heading h2 span {
+    color: #22cd6f !important;
+}
