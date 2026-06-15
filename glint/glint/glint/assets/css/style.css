@@ -801,7 +801,7 @@
 }
 
 .project-area.section-padding .heading small {
-    color: #22cd6f !important;
+    color: #ffffff !important;
 }
 
 .project-area.section-padding .heading h2 {
@@ -811,19 +811,169 @@
 .project-area.section-padding .heading h2 span {
     color: #22cd6f !important;
 }
-.testimonial-area.section-padding .filltext {
+
+.testimonials-area.testimonials-area1.section-padding .filltext {
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
 }
 
-.testimonial-area.section-padding .heading small {
+.testimonials-area.testimonials-area1.section-padding .heading small {
     color: #22cd6f !important;
 }
 
-.testimonial-area.section-padding .heading h2 {
+.testimonials-area.testimonials-area1.section-padding .heading h2 {
     color: #ffffff !important;
 }
 
-.testimonial-area.section-padding .heading h2 span {
+.testimonials-area.testimonials-area1.section-padding .heading h2 span {
     color: #22cd6f !important;
+}
+
+.pricing-area.pricing-area1.section-padding .filltext {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.pricing-area.pricing-area1.section-padding .heading small {
+    color: #ffffff !important;
+}
+
+.pricing-area.pricing-area1.section-padding .heading h2 {
+    color: #ffffff !important;
+}
+
+.pricing-area.pricing-area1.section-padding .heading h2 span {
+    color: #22cd6f !important;
+}
+
+.about-area .space-40 {
+    display: block !important;
+    height: 40px !important;
+}
+
+.side-content h4 {
+    color: #22cd6f !important;
+    font-size: 20px !important;
+    letter-spacing: 2px !important;
+}
+.about-area .info-content {
+    padding-top: 40px !important;
+}
+
+.about-spacer {
+    display: block;
+    height: 50px;
+}
+
+@media (max-width: 991px) {
+    .about-spacer {
+        height: 30px;
+    }
+}
+
+
+/* ===== HERO HEIGHT & SPACING ===== */
+.single-welcome-area {
+    min-height: 500px !important;
+    max-height: 750px !important;
+    padding: 0 !important;
+}
+
+/* ===== HERO IMAGE SIZE ===== */
+.wlc-author-1 {
+    width: 29% !important;
+    height: 75% !important;
+}
+/* ===== HERO IMAGE GLOBAL FIX ===== */
+.wlc-author-1 {
+    z-index: 0 !important;
+}
+
+/* ===== HERO MOBILE COMPLETE FIX ===== */
+@media (max-width: 991px) {
+
+    .welcome-area-wrap {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .single-welcome-area {
+        min-height: unset !important;
+        max-height: unset !important;
+        height: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+        position: relative !important;
+    }
+
+    /* Photo on top */
+    .wlc-author-1 {
+        position: relative !important;
+        top: unset !important;
+        left: unset !important;
+        right: unset !important;
+        bottom: unset !important;
+        width: 100% !important;
+        height: 300px !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        z-index: 1 !important;
+        order: 1 !important;
+        background: transparent !important;
+    }
+
+    .wlc-author-1 img {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        max-width: 100% !important;
+        object-fit: cover !important;
+        object-position: top center !important;
+        opacity: 1 !important;
+        transform: none !important;
+        -webkit-transform: none !important;
+        filter: none !important;
+    }
+
+    .wlc-filltext {
+        display: none !important;
+    }
+
+    /* Content below photo */
+    .single-welcome-area .container {
+        position: relative !important;
+        z-index: 1 !important;
+        order: 2 !important;
+        padding: 30px 20px !important;
+    }
+
+    .wlc-title h1 {
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+
+    .wlc-title p {
+        font-size: 14px !important;
+        margin: 15px 0 !important;
+    }
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.service-icon i {
+    font-size: 32px;
+    color: #22cd6f;
 }

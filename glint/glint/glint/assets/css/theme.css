@@ -1467,7 +1467,7 @@ span.circle.circle-4 {
     transition:all .3s;
 }
 .testimonial-img {
-    height: 100px;
+    height: 50px;
     width: 100px;
     border-radius: 50%;
     overflow: hidden;
@@ -1478,7 +1478,7 @@ span.circle.circle-4 {
 }
 
 .testimonial-img img {
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100%;
     margin-right: 20px;
 }
