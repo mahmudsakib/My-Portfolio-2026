@@ -49,3 +49,8 @@ process.on('SIGINT', () => {
   console.log('\n\n👋 Stopping server...\n');
   process.exit(0);
 });
+
+function toggleDetails(element){
+    const card = element.closest('.project-card');
+    card.classList.toggle('active');
+}
