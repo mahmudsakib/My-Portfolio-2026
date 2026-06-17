@@ -1154,6 +1154,7 @@
     transform:rotate(180deg);
 }
 
+
 @media(max-width:991px){
     .project-grid{
         grid-template-columns:1fr;
