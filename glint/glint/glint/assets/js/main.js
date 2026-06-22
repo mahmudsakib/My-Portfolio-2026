@@ -8,12 +8,14 @@ jQuery(document).ready(function($) {
     var stellarnav =  $('.stellarnav');
 stellarnav.stellarNav({
     theme: 'light',
-    breakpoint: 960,
+    breakpoint: 992,
     position: 'right',
     phoneBtn: '',
     locationBtn: '',
     closeBtn: true
 });
+
+
 
       //All Carousel active
       var hover_project_item = $(' #da-thumbs > li ');
